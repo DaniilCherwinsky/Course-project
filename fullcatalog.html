@@ -51,9 +51,22 @@
     </nav>
 
     <button class="btn-top" title="go to top">Наверх</button>
+    <div class="row justify-content-end mt-5 mr-2">
+            <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Кнопка выпадающего списка
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#VW">Volkswagen</a>
+                      <a class="dropdown-item" href="#Audi">Audi</a>
+                      <a class="dropdown-item" href="#Mercedes">Mercedes</a>
+                      <a class="dropdown-item" href="#BMW">BMW</a>
+                    </div>
+            </div>
+    </div>
     <!--Card Car-->
     <!--Croup 1-->
-    <div class="container mt-5">
+    <div class="container mt-5" id="VW">
         <div class="row justify-content-center">
             <div class="card col-lg-4" style="width: 18rem;">
                 <p id="cn"><img src="vwimg/teramont.jpg" class="card-img-top" alt="teramont"></p>
@@ -112,10 +125,10 @@
             </div>
         </div>
     </div>
-
+<hr>
     <!--Group 2-->
     <div class="container mt-5">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="Audi">
             <div class="card col-lg-4" style="width: 18rem;">
                 <p id="cn"><img src="auimg/rs7a.png" class="card-img-top" alt="rs 7"></p>
                 <div class="card-body">
@@ -173,9 +186,9 @@
             </div>
         </div>
     </div>
-
+<hr>
     <!--Group 3-->
-    <div class="container mt-5">
+    <div class="container mt-5" id="Mercedes">
         <div class="row justify-content-center">
             <div class="card col-lg-4" style="width: 18rem;">
                 <p id="cn"><img src="merimg/a200m.jpg" class="card-img-top" alt="a 200"></p>
@@ -234,8 +247,9 @@
             </div>
         </div>
     </div>
+<hr>
     <!--Group 4-->
-    <div class="container mt-5">
+    <div class="container mt-5" id="BMW">
         <div class="row justify-content-center">
             <div class="card col-lg-4" style="width: 18rem;">
                 <p id="cn"><img src="bmimg/m5.jpg" class="card-img-top" alt="m5"></p>
