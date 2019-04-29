@@ -1,0 +1,25 @@
+#pht{
+    background-image: url('img/rs7.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+    text-align: center;
+    height: 750px;
+}
+#colr{
+    color:white;
+}
+#fot{
+    height: 150px;
+}
+#cn{
+    text-align: center;
+    height: 200px;
+    overflow: hidden;
+}
+#ss{
+    height: 200px;
+    width: 100%;
+}

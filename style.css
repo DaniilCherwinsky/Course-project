@@ -1,0 +1,46 @@
+#pht{
+    background-image: url('img/fon.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+    text-align: center;
+    height: 750px;
+}
+#jo{
+    text-align: center;
+}
+#colr{
+    color: white;
+}
+#fo{
+    text-align: center;
+}
+#fn2{
+    background-image: url('img/world.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    padding-bottom: 10vw;
+    padding-top: 10vw;
+    text-align: center;
+    height: 250px;
+}
+#bt{
+    width: 350px;
+
+}
+#fot{
+    height: 150px;
+    background-color: rgb(37, 34, 34);
+}
+.btn{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: rgb(8, 119, 58); /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    width: 350px;
+}
